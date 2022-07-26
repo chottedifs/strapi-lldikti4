@@ -4,7 +4,8 @@
   "info": {
     "singularName": "college-distribution",
     "pluralName": "college-distributions",
-    "displayName": "College Distribution"
+    "displayName": "College Distribution",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,14 +13,17 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "count": {
-      "type": "integer"
+      "type": "integer",
+      "required": true
     },
     "slug": {
       "type": "uid",
-      "targetField": "name"
+      "targetField": "name",
+      "required": true
     }
   }
 }

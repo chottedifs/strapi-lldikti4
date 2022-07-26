@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "galleries",
+  "collectionName": "online_services",
   "info": {
-    "singularName": "gallery",
-    "pluralName": "galleries",
-    "displayName": "Gallery",
+    "singularName": "online-service",
+    "pluralName": "online-services",
+    "displayName": "Online Service",
     "description": ""
   },
   "options": {
@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "image": {
+    "icon": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -20,7 +20,11 @@
         "images"
       ]
     },
-    "description": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
       "type": "text",
       "required": true
     }
