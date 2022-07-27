@@ -27,6 +27,11 @@
       "allowedTypes": [
         "files"
       ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
     }
   }
 }
