@@ -4,7 +4,8 @@
   "info": {
     "singularName": "our-service",
     "pluralName": "our-services",
-    "displayName": "Our Service"
+    "displayName": "Our Service",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,12 +21,12 @@
       "required": true
     },
     "document": {
-      "allowedTypes": [
-        "files"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
     }
   }
 }
