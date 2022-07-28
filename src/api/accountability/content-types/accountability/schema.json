@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accountabilities",
+  "info": {
+    "singularName": "accountability",
+    "pluralName": "accountabilities",
+    "displayName": "Accountability"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "document": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
