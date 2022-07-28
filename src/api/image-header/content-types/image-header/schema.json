@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "image_headers",
+  "info": {
+    "singularName": "image-header",
+    "pluralName": "image-headers",
+    "displayName": "Image-Header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
